@@ -165,6 +165,9 @@ body {
 
   /* navbar-default end*/ }
 /* mobile version end*/
+.logo {
+  height: 300px; }
+
 @media (max-width: 767px) {
   .mobile-logo {
     display: block;
