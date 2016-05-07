@@ -8,9 +8,6 @@ body {
   height: 200px;
   z-index: 1; }
 
-.navbar-default {
-  padding-top: 0px; }
-
 #mobile {
   display: none; }
 
@@ -18,7 +15,7 @@ body {
   display: none; }
 
 .fb {
-  margin-right: -45px;
+  margin-right: -35px;
   height: 35px;
   width: 35px;
   margin-top: -5px; }
@@ -112,7 +109,6 @@ body {
 
   .navbar-default {
     width: auto;
-    margin-top: -200px;
     background-color: #5e8791;
     /* navbar-nav end*/ }
     .navbar-default #mobile {
@@ -170,15 +166,16 @@ body {
 
 /*Banner*/
 .banner {
-  width: 100%;
+  width: 95%;
   display: block;
-  margin: 15px auto; }
+  margin: 15px 0px 15px -10px; }
 
 .blog-post {
   border: 2px solid #5b7281;
   border-radius: 5px;
   margin-bottom: 50px;
   padding: 20px;
+  margin-right: 40px;
   color: #5b7281; }
   .blog-post a {
     text-decoration: none;
@@ -189,7 +186,8 @@ body {
     margin: auto;
     margin-bottom: 10px; }
   .blog-post .blog-post-title {
-    font-size: 22px; }
+    font-size: 22px;
+    font-weight: bold; }
   .blog-post .blog-post-meta {
     font-size: 14px; }
   .blog-post .blog-content {
@@ -205,7 +203,10 @@ body {
       text-decoration: none;
       color: #5b7281; }
   .blog-post .blog-share {
-    color: #5b7281; }
+    color: #5b7281;
+    margin-bottom: -10px; }
+    .blog-post .blog-share i {
+      margin: 10px 5px 0px 5px; }
   .blog-post hr {
     border: 1px solid #5b7281; }
   .blog-post .blog-switch {
@@ -272,19 +273,23 @@ body {
     margin: 0px 10px; }
 
 .sidebar {
-  margin-top: 210px;
+  margin-top: 230px;
   color: #5b7281; }
   .sidebar a {
     color: #5b7281;
     text-decoration: none; }
   .sidebar h4 {
     text-align: center;
-    padding-top: 10px; }
+    padding-top: 10px;
+    font-weight: bold; }
   .sidebar hr {
     border: 1px solid #5b7281; }
   .sidebar p {
-    font-size: 10px;
-    margin-top: -5px; }
+    font-size: 15px;
+    margin-top: -5px;
+    margin-left: 5px; }
+  .sidebar h5 {
+    font-size: 18px; }
   .sidebar .fp-pic {
     width: 100%; }
   .sidebar .form-control {
@@ -298,8 +303,14 @@ body {
     color: white; }
 
 @media (max-width: 767px) {
+  .banner {
+    width: 95%;
+    display: block;
+    margin: 15px 0px; }
+
   .blog-post {
-    border: 1px solid #5b7281; }
+    border: 1px solid #5b7281;
+    margin-right: 0px; }
     .blog-post .blog-pic {
       width: 100%;
       display: block;

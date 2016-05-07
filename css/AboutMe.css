@@ -8,9 +8,6 @@ body {
   height: 200px;
   z-index: 1; }
 
-.navbar-default {
-  padding-top: 0px; }
-
 #mobile {
   display: none; }
 
@@ -18,7 +15,7 @@ body {
   display: none; }
 
 .fb {
-  margin-right: -45px;
+  margin-right: -35px;
   height: 35px;
   width: 35px;
   margin-top: -5px; }
@@ -112,7 +109,6 @@ body {
 
   .navbar-default {
     width: auto;
-    margin-top: -200px;
     background-color: #5e8791;
     /* navbar-nav end*/ }
     .navbar-default #mobile {

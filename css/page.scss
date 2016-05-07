@@ -1,0 +1,11 @@
+@import 'navbar&footer';
+
+$colTheme:#c78561;
+@import 'blog';
+
+@media (max-width: 767px) {
+      .blog-post{
+        border: none;
+      }
+
+  }

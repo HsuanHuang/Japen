@@ -8,9 +8,9 @@
 
 /*Banner*/
 .banner{
-  width:100%;
+  width:95%;
   display:block;
-  margin:15px auto;
+  margin:15px 0px 15px -10px;
 }
 
 .blog-post{
@@ -18,6 +18,7 @@
   border-radius: 5px;
   margin-bottom: 50px;
   padding:20px;
+  margin-right: 40px;
   color:$colTheme;
 
     a{
@@ -34,6 +35,7 @@
 
     .blog-post-title{
       font-size: 22px;
+      font-weight:bold;
     }
 
     .blog-post-meta{
@@ -54,6 +56,8 @@
       margin-top: 20px;
       margin-bottom: 20px;
       color:$colTheme;
+
+
         a {
         text-decoration: none;
         color:$colTheme;
@@ -62,6 +66,11 @@
 
     .blog-share{
       color:$colTheme;
+      margin-bottom: -10px;
+      i{
+        margin:10px 5px 0px 5px;
+      }
+
 
     }
 
@@ -193,7 +202,7 @@
 
 
 .sidebar{
-  margin-top: 210px;
+  margin-top: 230px;
   color:$colTheme;
 
         a{
@@ -204,6 +213,7 @@
         h4{
           text-align: center;
           padding-top: 10px;
+          font-weight:bold;
         }
 
         hr{
@@ -211,8 +221,13 @@
         }
 
         p{
-          font-size: 10px;
+          font-size: 15px;
           margin-top: -5px;
+          margin-left: 5px;
+        }
+
+        h5{
+          font-size: 18px;
         }
 
         .fp-pic{
@@ -244,9 +259,18 @@
 
 @media (max-width: 767px) {
 
+  .banner{
+    width:95%;
+    display:block;
+    margin:15px 0px;
+  }
+
+
+
     .blog-post{
       border:1px solid $colTheme;
 
+      margin-right: 0px;
 
       .blog-pic{
         width:100%;

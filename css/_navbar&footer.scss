@@ -15,10 +15,6 @@ body{
 
 
 
-.navbar-default{
-  padding-top: 0px;
-}
-
 
 
 #mobile{
@@ -32,7 +28,7 @@ body{
 
 
 .fb{
-  margin-right: -45px;
+  margin-right: -35px;
   height:35px;
   width:35px;
   margin-top:-5px;
@@ -176,7 +172,6 @@ $colDropdownHighlight    :#5e8791;
 
   .navbar-default {
     width: auto;
-    margin-top: -200px;
     background-color: $bgDefault;
 
     #mobile{
