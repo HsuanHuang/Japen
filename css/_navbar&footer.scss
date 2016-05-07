@@ -3,16 +3,28 @@ body{
 }
 
 
+.logo{
+  /* How to put in the center? */
+  margin:0px auto;
+  width:auto;
+  height:200px;
+
+  z-index: 1;
+
+}
+
+
+
+.navbar-default{
+  padding-top: 0px;
+}
+
+
+
 #mobile{
   display: none;
 }
 
-.logo{
-  width:auto;
-  height:230px;
-  margin-top: -200px;
-  margin-right: -200px;
-}
 
 .mobile-logo{
   display: none;
@@ -72,7 +84,6 @@ $colDropdownHighlight    :#5e8791;
 .navbar-default {
   border: none;
   width: auto;
-  padding: 200px 0px 0px 0px;
   background-color: $bgDefault;
   .navbar-brand {
     color: $bgDefault;

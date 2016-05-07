@@ -1,14 +1,18 @@
 body {
   font-family: Microsoft JhengHei; }
 
+.logo {
+  /* How to put in the center? */
+  margin: 0px auto;
+  width: auto;
+  height: 200px;
+  z-index: 1; }
+
+.navbar-default {
+  padding-top: 0px; }
+
 #mobile {
   display: none; }
-
-.logo {
-  width: auto;
-  height: 230px;
-  margin-top: -200px;
-  margin-right: -200px; }
 
 .mobile-logo {
   display: none; }
@@ -47,7 +51,6 @@ body {
 .navbar-default {
   border: none;
   width: auto;
-  padding: 200px 0px 0px 0px;
   background-color: #ffffff; }
   .navbar-default .navbar-brand {
     color: #ffffff; }
@@ -162,22 +165,6 @@ body {
 
   /* navbar-default end*/ }
 /* mobile version end*/
-.logo {
-  /* How to put in the center? */
-  margin: 0px auto;
-  width: auto;
-  height: 300px;
-  z-index: 1; }
-
-.homepage-logo {
-  display: block;
-  width: 100%;
-  height: 350px;
-  margin: 0px auto; }
-
-.navbar-default {
-  padding-top: 0px; }
-
 @media (max-width: 767px) {
   .mobile-logo {
     display: block;
