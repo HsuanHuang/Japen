@@ -14,7 +14,7 @@ var main = function(){ /* to make sure the script runs after page load */
 
 
 			$(".blog-content").html(short_content+'<span class="more">...</span>'+
-					'<button type="button" class="btn btn-default" id="website">Read More</button>'+
+					'<a href="page.html"><button type="button" class="btn btn-default" id="website">Read More</button></a>'+
 					'<span class="more_text" style="display:none;">'+long_content+'</span>');
 
 					$(".blog-content").find('.btn-default').click(function(event){ /* find the a.read_more element within the new html and bind the following code to it */
