@@ -1,0 +1,101 @@
+@import 'navbar&footer';
+
+.logo{
+  /* How to put in the center? */
+  margin:0px auto;
+  width:auto;
+  height:300px;
+
+
+  z-index: 1;
+
+}
+
+.homepage-logo{
+  display: block;
+  width: 100%;
+  height: 350px;
+  margin: 0px auto;
+
+
+}
+
+.navbar-default{
+  padding-top: 0px;
+}
+
+
+
+
+@media (max-width: 767px) {
+
+  .mobile-logo{
+    display: block;
+    width:100%;
+    padding:100px;
+  }
+
+
+
+  .navbar-default{
+    margin-top: 0px;
+  }
+
+  .hp-post{
+    img{
+      opacity:0.6;
+      width:100%;
+      height: auto;
+    }
+    .container {
+    position: relative;
+    padding:0px;
+    background-color: rgba(94, 135, 145, 1);
+
+    }
+
+    .title {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    font-size: 25px;
+    color:white;
+
+    }
+  }
+
+
+}
+
+
+.map-default{
+  width:100%;
+  margin-top: 20px;
+}
+
+table{
+  text-align: center;
+  width:80%;
+  margin-top:50px;
+  margin-bottom:50px;
+  border:2px solid $colDefault;
+  border-collapse: separate;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+
+  tr:first-child{
+        color:white;
+        background-color: $colDefault;
+      }
+  td{
+    padding:10px 0px 10px 0px;
+    img{
+      width:60%;
+    }
+  }
+
+
+
+
+}

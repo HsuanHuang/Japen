@@ -1,0 +1,31 @@
+@import 'navbar&footer';
+
+.aboutMe{
+  display: block;
+  margin: auto;
+  width:60%;
+  padding:50px;
+}
+
+
+.info{
+  margin-bottom: 20px;
+
+        p{
+          display: block;
+          margin:10px 30px;
+        }
+
+        .followMe{
+          color:#5e8791;
+            .fb{
+              margin-left: 30px;
+            }
+            .ig{
+              margin-left: 5px;
+            }
+
+        }
+
+
+}
