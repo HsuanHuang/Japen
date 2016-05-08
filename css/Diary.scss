@@ -2,3 +2,9 @@
 
 $colTheme:#dd8b76;
 @import 'blog';
+/*--Comment Background Color*/
+.blog-post{
+  .media{
+    background-color: rgba(221,139,118,0.3);
+  }
+}

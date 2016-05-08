@@ -1,5 +1,5 @@
 body {
-  font-family: Microsoft JhengHei; }
+  font-family: Microsoft JhengHei, Verdana, sans-serif; }
 
 .logo {
   /* How to put in the center? */
@@ -167,16 +167,19 @@ body {
   width: 60%;
   padding: 50px; }
 
-.info {
-  margin-bottom: 20px; }
-  .info p {
-    display: block;
-    margin: 10px 30px; }
-  .info .followMe {
-    color: #5e8791; }
-    .info .followMe .fb {
-      margin-left: 30px; }
-    .info .followMe .ig {
-      margin-left: 5px; }
+@media (max-width: 767px) {
+  .info {
+    margin-bottom: 20px; }
+    .info p {
+      display: block;
+      margin: 10px 30px; }
+    .info .followMe {
+      color: #5e8791; }
+      .info .followMe .fb {
+        display: inline-block;
+        margin-left: 28px; }
+      .info .followMe .ig {
+        display: inline-block;
+        margin-left: 45px; } }
 
 /*# sourceMappingURL=AboutMe.css.map */

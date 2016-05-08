@@ -1,4 +1,12 @@
 @import 'navbar&footer';
 
-$colTheme:#c78561;
+$colTheme: #c78561;
 @import 'blog';
+
+
+/*--Comment Background Color*/
+.blog-post{
+  .media{
+    background-color: rgba(199,133,97,0.3);
+  }
+}

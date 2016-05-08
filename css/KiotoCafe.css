@@ -1,5 +1,5 @@
 body {
-  font-family: Microsoft JhengHei; }
+  font-family: Microsoft JhengHei, Verdana, sans-serif; }
 
 .logo {
   /* How to put in the center? */
@@ -231,6 +231,7 @@ body {
       height: 64px;
       margin-right: 10px; }
     .blog-post .blog-comment .addComment h6 {
+      font-size: 8px;
       color: black;
       text-align: left; }
     .blog-post .blog-comment .addComment .head {
@@ -246,8 +247,6 @@ body {
         border-radius: 2px; }
     .blog-post .blog-comment .media {
       width: 100%;
-      background-color: rgba(199, 133, 97, 0.5);
-      /* Color Code needed */
       padding: 10px; }
       .blog-post .blog-comment .media .media-body {
         margin-top: 10px; }
@@ -262,6 +261,7 @@ body {
     border: 1px solid #6e8847;
     color: #6e8847; }
 
+/*Page Number*/
 .page {
   font-size: 15px;
   text-align: center; }
@@ -275,21 +275,27 @@ body {
 .sidebar {
   margin-top: 230px;
   color: #6e8847; }
+  .sidebar > div {
+    margin-bottom: 25px; }
   .sidebar a {
     color: #6e8847;
     text-decoration: none; }
   .sidebar h4 {
+    font-size: 18px;
     text-align: center;
     padding-top: 10px;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-bottom: -15px; }
   .sidebar hr {
     border: 1px solid #6e8847; }
   .sidebar p {
-    font-size: 15px;
+    font-size: 16px;
     margin-top: -5px;
     margin-left: 5px; }
-  .sidebar h5 {
+  .sidebar .fp span {
     font-size: 18px; }
+  .sidebar h5 {
+    font-size: 16px; }
   .sidebar .fp-pic {
     width: 100%; }
   .sidebar .form-control {
@@ -316,5 +322,8 @@ body {
       display: block;
       margin: auto;
       margin-bottom: 10px; } }
+/*--Comment Background Color*/
+.blog-post .media {
+  background-color: rgba(110, 136, 71, 0.3); }
 
 /*# sourceMappingURL=KiotoCafe.css.map */

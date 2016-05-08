@@ -7,6 +7,8 @@
   padding:50px;
 }
 
+@media (max-width: 767px) {
+
 
 .info{
   margin-bottom: 20px;
@@ -19,13 +21,20 @@
         .followMe{
           color:#5e8791;
             .fb{
-              margin-left: 30px;
-            }
-            .ig{
-              margin-left: 5px;
+              display: inline-block;
+              margin-left: 28px;
             }
 
+            .ig{
+              display: inline-block;
+              margin-left: 45px;
+            }
+
+
         }
+
+
+}
 
 
 }

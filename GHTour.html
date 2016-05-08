@@ -10,235 +10,343 @@
     <link href="css/GHTour.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
-  </head>
+        <style>
+        @media (max-width: 767px) {
+              .blog-post{
+                border: none;
+              }
+          }
+        </style>
 
-  <body>
-    <nav class="navbar navbar-default ">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="Homepage.html"><img class="logo" src="img/logo.png"/></a>
+
+      </head>
+
+      <body>
+        <center>
+        <a href="Homepage.html"><img  class="logo" id="website" src="img/logo.png"/></a>
+        </center>
+
+        <nav class="navbar navbar-default ">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav col-sm-12">
+                <li class="col-sm-2" id="website"><a href="Homepage.html">看地圖找景點</a></li>
+
+                <!--Mobile Navbar Display Only-->
+
+                <li class="dropdown" id="mobile">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">玩樂地圖<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">關東地區</a></li>
+                    <li><a href="#">關西地區</a></li>
+                    <li><a href="#">中部地區</a></li>
+                    <li><a href="#">北陸地區</a></li>
+                    <li><a href="#">中國地區</a></li>
+                    <li><a href="#">九州地區</a></li>
+                    <li><a href="#">四國地區</a></li>
+                    <li><a href="#">東北地區</a></li>
+                    <li><a href="#">沖繩地區</a></li>
+                    <li><a href="#">北海道地區</a></li>
+                  </ul>
+                </li>
+
+                <li class="MapSpring" id="mobile"><a href="#">春季地圖</a></li>
+                <li class="MapSummer" id="mobile"><a href="#">夏季地圖</a></li>
+                <li class="MapFall" id="mobile"><a href="#">秋季地圖</a></li>
+                <li class="MapWinter" id="mobile"><a href="#">冬季地圖</a></li>
+
+
+                <!--Mobile Navbar Display End-->
+
+                <li class="dropdown col-sm-2">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">訪問計畫<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="LocalGroup.html">地域團體訪問</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="TaiwaneseInJapen.html">旅日台灣人</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="JapeneseFriend.html">我的日本好朋友</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown col-sm-2">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">特輯<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="GHTour.html">Guest House巡迴中</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="KiotoCafe.html">京都咖啡廳</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="KiotoMarket.html">京都手作市集</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="Downtown.html">走訪美味下町</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="DowntownCafe.html">美味下町cafe</a></li>
+                  </ul>
+                </li>
+
+                <li class="col-sm-2"><a href="Diary.html">留學日記</a></li>
+
+                <li class="col-sm-2"><a href="AboutMe.html">關於我</a></li>
+
+                <li class="col-sm-1">
+                  <a href="#"><img class="fb navbar-right" id="website" src="img/fb.png"/></a>
+                </li>
+
+                <li class="col-sm-1">
+                  <a href="#"><img class="ig navbar-right" id="website" src="img/ig.png"/></a>
+                </li>
+
+
+
+
+              </ul>
+
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+
+        </nav>
+        <hr class="navbar-hr">
+        <a href="Homepage.html"><img class="mobile-logo" src="img/logo.png"/></a>
+
+    <!--breadcrumb
+    <ol class="breadcrumb">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Library</a></li>
+      <li class="active">Data</li>
+    </ol>
+    -->
+    <div class="container">
+    <div class="row">
+
+
+        <!--Blog Post-->
+          <div class="col-sm-9 main" >
+        <img class="banner" src="img/banner-guestHouse.png"/>
+
+    <!--Blog-post 1-->
+        <div class="blog-post">
+               <a href="#"><img class="blog-pic" id="mobile" src="img/photo.png"/></a>
+               <a href="#"><h3 class="blog-post-title">【東京】墨田區創作家俱樂部-「美味下町」訪問篇</h3></a>
+               <p class="blog-post-meta"><span class="blog-post-date">April 20, 2016</span> | <span class="blog-post-author">阿帆</span></p>
+
+               <a href="#"><img class="blog-pic" id="website" src="img/photo.png"/></a>
+
+               <div class="blog-content">內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內
+                 文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內
+                 文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
+                 內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內
+                 文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
+                 內文內文內文內文內文內文內文內文內文</br></br></br>
+
+                 內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內
+                   文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內
+                   文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
+                   內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內
+                   文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
+                   內文內文內文內文內文內文內文內文內文
+
+
+                  <div class="blog-tag">
+                    <i class="fa fa-tag" aria-hidden="true"></i>
+                    <a href="#">東京</a>
+                    <a href="#">美味</a>
+                    <a href="#">下町</a>
+                    <a href="#">訪問</a>
+                    <a href="#">墨田區</a>
+                  </div>
+
+                  <!-- blog-share-->
+                  <div class="blog-share">
+                    <p>share on :
+                      <a href="#"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                    </p>
+                  </div>
+
+                  <hr>
+
+                  <!-- blog-switch-->
+                  <div class="blog-switch">
+                    <p class="last-post"><a href="#"> <i class="fa fa-angle-left fa-lg" aria-hidden="true"></i> <span>上一篇：【大阪】秘密大阪燒</span></p></a>
+                    <p class="next-post"><a href="#"> <span>下一篇：【京都】平價咖啡廳</span> <i class="fa fa-angle-right fa-lg" aria-hidden="true"></i> </a></p>
+
+                  </div>
+
+
+
+
+
+               <!-- Blog Comments -->
+               <div class= "blog-comment">
+                       <!-- Comments Form -->
+                       <div class="addComment">
+                           <h6>4 Comment：</h6>
+
+                           <a href="#"><img class="pull-left head" src="img/head.png"/></a>
+
+                           <form role="form">
+
+                               <div class="form-group">
+                                   <textarea class="form-control" rows="2">Add a comment...</textarea>
+                               </div>
+
+                           </form>
+                       </div>
+
+
+
+                       <!-- Posted Comments -->
+
+                       <!-- Comment1 -->
+                       <div class="media">
+                           <a href="#"><img class="pull-left head" src="img/head.png"/></a>
+                           <div class="media-body">
+                               <h6 class="media-heading">
+                               </h6>
+                               こんにちは！我是阿帆，大學生，22歲。截至目前人生最大的興趣是去日本的各種怪地方玩，現正京都交換留學中。
+
+                               <h6 class="media-data">Rooney Mara
+                                 <small>  at May 6, 2016, 18:45</small>
+                               </h6>
+                           </div>
+                       </div>
+
+                       <!-- Comment2 -->
+                       <div class="media">
+                           <a href="#"><img class="pull-left head" src="img/head.png"/></a>
+                           <div class="media-body">
+                               <h4 class="media-heading">
+                               </h4>
+                              こんにちは！我是阿帆，大學生，22歲。截至目前人生最大的興趣是去日本的各種怪地方玩，現正京都交換留學中。
+
+                              <h6 class="media-data">Rooney Mara
+                                <small>  at May 6, 2016, 18:45</small>
+                              </h6>
+
+                           </div>
+                       </div>
+
+                       <!-- Comment3 -->
+                       <div class="media">
+                           <a href="#"><img class="pull-left head" src="img/head.png"/></a>
+                           <div class="media-body">
+                               <h4 class="media-heading"></h4>
+                              こんにちは！我是阿帆，大學生，22歲。截至目前人生最大的興趣是去日本的各種怪地方玩，現正京都交換留學中。
+
+                              <h6 class="media-data">Rooney Mara
+                                <small>  at May 6, 2016, 18:45</small>
+                              </h6>
+
+                           </div>
+                       </div>
+
+                       <!-- Comment4 -->
+                       <div class="media">
+                           <a href="#"><img class="pull-left head" src="img/head.png"/></a>
+                           <div class="media-body">
+
+                              こんにちは！我是阿帆，大學生，22歲。截至目前人生最大的興趣是去日本的各種怪地方玩，現正京都交換留學中。
+
+                              <h6 class="media-data">Rooney Mara
+                                <small>  at May 6, 2016, 18:45</small>
+                              </h6>
+                           </div>
+                       </div>
+
+                     </div><!--blog-comment end-->
+
+
+                  </div><!-- blog-content end -->
+
+
+        </div><!-- /.blog-post 1 end -->
+
+
+
+      </div><!--main part end-->
+
+
+      <div class="col-sm-3 sidebar" id="website">
+
+        <div class="fp">
+            <h4>Featured Posts</h4>
+            <hr>
+                  <a href="#">
+                  <img class="fp-pic" src="img/photo.png"/>
+                  <span>【東京】墨田區創作家俱樂部-「美味下町」訪問篇</span>
+                  </a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav col-sm-12">
-            <li class="col-sm-2" id="website"><a href="Homepage.html">看地圖找景點</a></li>
-
-            <!--Mobile Navbar Display Only-->
-
-            <li class="dropdown" id="mobile">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">玩樂地圖<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">關東地區</a></li>
-                <li><a href="#">關西地區</a></li>
-                <li><a href="#">中部地區</a></li>
-                <li><a href="#">北陸地區</a></li>
-                <li><a href="#">中國地區</a></li>
-                <li><a href="#">九州地區</a></li>
-                <li><a href="#">四國地區</a></li>
-                <li><a href="#">東北地區</a></li>
-                <li><a href="#">沖繩地區</a></li>
-                <li><a href="#">北海道地區</a></li>
-              </ul>
-            </li>
-
-            <li class="MapSpring" id="mobile"><a href="#">春季地圖</a></li>
-            <li class="MapSummer" id="mobile"><a href="#">夏季地圖</a></li>
-            <li class="MapFall" id="mobile"><a href="#">秋季地圖</a></li>
-            <li class="MapWinter" id="mobile"><a href="#">冬季地圖</a></li>
-
-
-            <!--Mobile Navbar Display End-->
-
-            <li class="dropdown col-sm-2">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">訪問計畫<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="LocalGroup.html">地域團體訪問</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="TaiwaneseInJapen.html">旅日台灣人</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="JapeneseFriend.html">我的日本好朋友</a></li>
-              </ul>
-            </li>
-
-            <li class="dropdown col-sm-2">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">特輯<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="GHTour.html">Guest House巡迴中</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="KiotoCafe.html">京都咖啡廳</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="KiotoMarket.html">京都手作市集</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="Downtown.html">走訪美味下町</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="DowntownCafe.html">美味下町cafe</a></li>
-              </ul>
-            </li>
-
-            <li class="col-sm-2"><a href="Diary.html">留學日記</a></li>
-
-            <li class="col-sm-2"><a href="AboutMe.html">關於我</a></li>
-
-            <li class="col-sm-1">
-              <a href="#"><img class="fb navbar-right" id="website" src="img/fb.png"/></a>
-            </li>
-
-            <li class="col-sm-1">
-              <a href="#"><img class="ig navbar-right" id="website" src="img/ig.png"/></a>
-            </li>
+        <div class="rp">
+            <h4>Recent Posts</h4>
+            <hr>
+                  <a href="#">
+                  <h5>【東京】墨田區創作家俱樂部-「美味下町」訪問篇</h5>
+                  </a>
+        </div>
 
 
 
 
-          </ul>
-
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-
-    </nav>
-    <hr class="navbar-hr">
-    <a href="Homepage.html"><img class="mobile-logo" src="img/logo.png"/></a>
-
-<!--breadcrumb
-<ol class="breadcrumb">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Library</a></li>
-  <li class="active">Data</li>
-</ol>
--->
+        <div class="Categories">
+            <h4>Categories</h4>
+            <hr>
+                <a href="#"><p>地域團體專訪(1)</p></a>
+                <a href="#"><p>日本好朋友(1)</p></a>
+        </div>
 
 
-
-<div class="container">
-<div class="row">
-
-  <!--Blog Post-->
-    <div class="col-sm-8 main" >
-    <img class="banner" src="img/banner-guestHouse.png"/>
-
-<!--Blog-post 1-->
-    <div class="blog-post">
-           <h2 class="blog-post-title">【東京】墨田區創作家俱樂部-「美味下町」訪問篇</h2>
-           <p class="blog-post-meta"><span class="blog-post-date">April 20, 2016</span> | <span class="blog-post-author">阿帆</span></p>
-
-           <img class="blog-pic" src="img/photo.png"/>
-
-           <div class="blog-content">內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內
-             文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內
-             文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
-             內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內
-             文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
-             內文內文內文內文內文內文內文內文內文</br></br></br>
-
-             內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內
-               文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內
-               文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
-               內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內
-               文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
-               內文內文內文內文內文內文內文內文內文
-
-
-              <div class="blog-tag"><i class="fa fa-tag" aria-hidden="true"></i>
-                <a href="#">東京</a>
-                <a href="#">美味</a>
-                <a href="#">下町</a>
-                <a href="#">訪問</a>
-                <a href="#">墨田區</a>
-              </div>
-            </div><!-- blog-content end -->
-    </div><!-- /.blog-post 1 end -->
-
-
-
-
-
-  </div><!--main part end-->
-  <div class="col-sm-3 col-sm-offset-1 sidebar">
-
-    <div class="fp">
-        <h4>Featured Posts</h4>
-        <hr>
-              <a href="#">
-              <img class="fp-pic" src="img/photo.png"/>
-              <h5>東京】墨田區創作家俱樂部-「美味下町」訪問篇</h5>
-              <p>April 20, 2016</p>
-              </a>
-    </div>
-
-    <div class="rp">
-        <h4>Recent Posts</h4>
-        <hr>
-              <a href="#">
-              <h5>東京】墨田區創作家俱樂部-「美味下町」訪問篇</h5>
-              <p>April 20, 2016</p>
-              </a>
-    </div>
-
-    <div class="Archive">
-        <h4>Archive</h4>
-        <hr>
-            <a href="#">
-            <h5>April 20, 2016</h5>
-            </a>
-    </div>
-
-
-    <div class="Categories">
-        <h4>Categories</h4>
-        <hr>
-            <a href="#"><p>地域團體專訪(1)</p></a>
-            <a href="#"><p>日本好朋友(1)</p></a>
-    </div>
-
-
-    <div class="Search">
-        <h4>Search</h4>
-        <hr>
-            <form class="navbar-form" role="search">
-              <div class="input-group">
-                <input type="text" class="form-control pull-right">
-                <span class="input-group-btn">
-                  <button type="submit" class="btn btn-search">
-                    <span class="glyphicon glyphicon-search">
-                      <span class="sr-only">Search</span>
+        <div class="Search">
+            <h4>Search</h4>
+            <hr>
+                <form class="navbar-form" role="search">
+                  <div class="input-group">
+                    <input type="text" class="form-control pull-right">
+                    <span class="input-group-btn">
+                      <button type="submit" class="btn btn-search">
+                        <span class="glyphicon glyphicon-search">
+                          <span class="sr-only">Search</span>
+                        </span>
+                      </button>
                     </span>
-                  </button>
-                </span>
-              </div>
-            </form>
-    </div>
+                  </div>
+                </form>
+        </div>
 
 
-  </div><!--sidebar end-->
+      </div><!--sidebar end-->
 
 
-</div><!--row end-->
-</div><!--container end-->
-
+    </div><!--row end-->
+    </div><!--container end-->
 
 
 
 
 
-<footer class="footer">
-     <p>©2016. Lin Yi-Fan and Chen Yi-Wen, all rights reserved.</p>
-</footer>
+    <footer class="footer">
+         <p>©2016. Lin Yi-Fan and Chen Yi-Wen, all rights reserved.</p>
+    </footer>
 
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/blog.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
 
-  </body>
+      </body>
 </html>
